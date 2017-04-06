@@ -2,12 +2,17 @@ body {
     background-color: lightgray;
 }
 
+.center {
+    text-align: center;
+}
+
 .circlepair {
 
     width: 30em;
 }
 
 .circle {
+    text-align: center;
     height: 10em;
     width: 10em;
     border-radius: 50%;
@@ -107,20 +112,33 @@ body {
 }
 
 @media screen and (max-width: 992px){
-    .circlepair {
-        width: 10em;
-    }
-    #blue {
-        margin: 0;
-    }
 
-    #orange {
-        margin: 0;
+    .circlepair {
+
+        width: 28em;
     }
 
     #circlewrap {
         width: 100em;
     }
 
+}
+@media screen and (max-width: 768px){
+
+    .circlepair {
+        width: 15em;
+    }
+
+    #circlewrap {
+        width: 65em;
+    }
+
+    #orange {
+        margin-left: 0;
+    }
+
+    #blue {
+        margin-left: 0;
+    }
 
 }
