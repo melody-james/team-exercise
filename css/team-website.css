@@ -16,6 +16,16 @@ body {
     border: .3em solid white;
     display: inline-block;
 }
+
+.small-circle {
+    height: 3em;
+    width: 3em;
+    background-color: lime;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
 .circle h4 {
     padding-top: 2em;
     font-size: 1.5em;
@@ -48,9 +58,17 @@ body {
 .thumb {
     display: inline-block;
     height: 12em;
-    width: 16em;
+    width: 19em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    margin-left: 6em;
+}
+
+#thumb2 {
+    margin-left: 7em;
 }
 .blog {
+    margin-bottom: 1em;
     float: left;
     height: 4em;
     width: 4em;
@@ -59,4 +77,17 @@ body {
 
 .container-fluid {
     width: 100%;
+}
+
+#twitter {
+    margin-top: 1em;
+    width: 16em;
+    height: 7em;
+}
+
+#bottom-text {
+    margin-top: 1em;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
 }
