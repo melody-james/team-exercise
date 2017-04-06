@@ -1,6 +1,5 @@
 body {
     background-color: lightgray;
-    text-align: center;
 }
 
 .circlepair {
@@ -17,13 +16,26 @@ body {
 }
 
 .small-circle {
-    height: 3em;
-    width: 3em;
-    background-color: lime;
+    height: 2em;
+    width: 2em;
     border-radius: 50%;
-    display: inline-block;
 }
 
+#smred {
+    background-color: red;
+}
+
+#smorange {
+    background-color: orange;
+}
+
+#smgreen {
+    background-color: green;
+}
+
+#smblue {
+    background-color: blue;
+}
 
 .circle h4 {
     padding-top: 2em;
@@ -58,8 +70,11 @@ body {
     display: inline-block;
     height: 12em;
     width: 19em;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     margin-top: 3em;
+}
+
+.bot-marg {
     margin-left: 6em;
 }
 
