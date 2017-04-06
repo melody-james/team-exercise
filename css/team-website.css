@@ -24,3 +24,18 @@ body {
 }
 
 #green {
+
+}
+
+#bottom {
+    margin-left: 1em;
+}
+
+.thumb {
+    height: 12em;
+    width: 12em;
+}
+.blog {
+    height: 5em;
+    width: 5em;
+}
