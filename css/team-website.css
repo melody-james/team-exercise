@@ -3,6 +3,11 @@ body {
     text-align: center;
 }
 
+.circlepair {
+
+    width: 30em;
+}
+
 .circle {
     height: 10em;
     width: 10em;
@@ -15,6 +20,7 @@ body {
     padding-top: 2em;
     font-size: 1.5em;
     font-weight: bold;
+    color: white;
 }
 #red {
     background-color: red;
@@ -22,10 +28,13 @@ body {
 
 #blue {
     background-color: blue;
+    margin-left: 5em;
 }
 
 #orange {
     background-color: orange;
+    margin-left: 5em;
+
 }
 
 #green {
