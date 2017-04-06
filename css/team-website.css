@@ -37,10 +37,17 @@ body {
 }
 
 .thumb {
+    display: inline-block;
     height: 12em;
-    width: 12em;
+    width: 16em;
 }
 .blog {
-    height: 5em;
-    width: 5em;
+    float: left;
+    height: 4em;
+    width: 4em;
+}
+
+
+.container-fluid {
+    width: 100%;
 }
