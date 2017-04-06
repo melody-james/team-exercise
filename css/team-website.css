@@ -11,7 +11,6 @@ body {
 .circle {
     height: 10em;
     width: 10em;
-    background-color: lime;
     border-radius: 50%;
     border: .3em solid white;
     display: inline-block;
@@ -90,4 +89,23 @@ body {
     text-align: left;
     font-weight: bold;
     font-size: 1.3em;
+}
+
+@media screen and (max-width: 992px){
+    .circlepair {
+        width: 10em;
+    }
+    #blue {
+        margin: 0;
+    }
+
+    #orange {
+        margin: 0;
+    }
+
+    #circlewrap {
+        width: 100em;
+    }
+
+
 }
